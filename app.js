@@ -8,7 +8,7 @@ const localstorage = new LocalStorage('./scratch')
 const port = 3000
 
 
-mongoose.connect('mongodb+srv://MateusHolandaDev:M1375577506@cluster0.c82br.mongodb.net/biblioteca?retryWrites=true&w=majority', {
+mongoose.connect('link do seu banco de dados', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
